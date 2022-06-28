@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300;500&display=swap');
+
+@import 'base/_variables.scss';
+@import 'base/_mixins.scss';
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+hr {
+  color: #7d7d7d;
+}
+
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+  
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+@import 'blocks/header';
+
+
+@import 'blocks/footer';
+
+
